@@ -9,7 +9,7 @@ dockerphpmysql
 ```
 
 ```
-Códigos 
+Comandos
 apk update
 apk add git
 git clone "link repositório"
@@ -23,8 +23,10 @@ ls
 docker-compose exec mysql bash
 docker-compose exec -T mysql mysql -uroot -prootpassword notas < ./src/sql/meu_script.sql
 ```
-caso de erro >> 
+```
+Comandos caso de erro
   exit 
   exit 
   docker-compose dow
   docker ps
+```
